@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_KEY = 'OGkH00Y8nnUsmSAStrur8mMf02D7dd5R';
+const API_KEY = '******************************';
 
 const HolidayFinder = () => {
   const [countries, setCountries] = useState([]);
