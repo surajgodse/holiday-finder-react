@@ -94,7 +94,7 @@ const HolidayFinder = () => {
           value={selectedCountry} 
           onChange={handleCountryChange}
         >
-          <option key="select-country" value="">United States</option>
+          <option key="select-country" value=""Select Country</option>
           {countries.map(country => (
             <option key={country.iso2} value={country.iso2}>{country.country_name}</option>
           ))}
